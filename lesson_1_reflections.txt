@@ -1,0 +1,53 @@
+Viewing diff between 2 versions of a file helped me see that a bug
+was introduced. I could see what line was added
+and what line was deleted, and I could visually compare the 2 lines.
+This allowed me to visually spot the differences.
+
+Q: How could having easy access to the entire history of a file
+make you a more effecient programmer in the long term?
+A: By being able to see all the changes, one could revert back to 
+previous versions. And also see what the exact changes are that
+have been done.
+
+Q: What do you think are the pros and cons of manually choosing
+when to create a commit, like you do in Git, vs having versions
+automatically saved, like Google Docs does?
+A: The cons of manually choosing when to commit occur if one fails
+to commit often. If you forget to commit, it would have been nice to
+have and automatic save feature.
+The pros of choosing when to commit is that you can commit often,
+and can commit after a logical change (which would be difficult
+to do automatically)
+
+Multi-File Commits
+Q: Why do you think some version control systems, like Git, allow
+ saving multiple files in one commit, while others, like Google
+ Docs, treat each file separately?
+A: Google Docs assumes each file is a stand-alone file, Whereas 
+Git assumes that multiple files interact wth each other in a 
+project (repository) and so saves all of them
+
+Using Git to View History
+Q: How can you use the commands git log and git diff to view the 
+history of files?
+A: use "git log" to show a list of all commits. Then find the 
+commit id (long serial number ABOVE comment that you are looking for)
+ and go down one (previous)  then type "git diff olderID newerID" 
+ to see the differences commited in the new "commit". 
+ If you want to see just a summary of how many lines changes type
+ "git diff --stat olderID newerID"
+
+ Confidence from Version Control
+ Q: How might using version control make you more confident to make 
+ changes that could break something?
+ A: Using version control will definietly make you more confident.
+ If you break something, you can just go back to a previous version.
+ Ideally comparing the differences to see what broke and even figure 
+ out how to fix it.
+
+How Do You Want to Use Git?
+Q: Now that you have your workspace set up, what do you want to
+ use Git for?
+A: I would like to use Git for continuing to have PROPER version
+control for my game and also while making native Android Games
+
