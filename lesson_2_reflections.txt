@@ -1,0 +1,15 @@
+These are the reflections from lesson2
+
+Initializing a Repository
+Q: What happens when you initialize a repository? Why do you 
+need to do it?
+A: Git sets up an empty repository (makes a new directory .git), and
+initializes it. The repository has NO commits yet.
+
+Staging Area
+Q: How is the staging area different from the working directory
+ and the repository? What value do you think it offers?
+A: The staging area is a subset of the working directory. It allows you 
+to bundle up the files you would like in this commit(?) before
+commiting.
+
