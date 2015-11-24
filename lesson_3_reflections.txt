@@ -1,3 +1,4 @@
 Editing Files on GitHub
 Q: When would you want to create a remote repository rather than keeping all your work local?
-A: 
+A: A remote repository allow many people to have access to the files as they work on a shared project. Also, it may act as a convenient location to download files.
+
