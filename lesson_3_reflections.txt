@@ -19,4 +19,12 @@ use Fork if you wanted to make changes to a repository on Github
 that you wanted to give credit to the original repository, and also
 if the repository would not allow you to make changes on it originally.
 
+Local copies of remote branches
+Q: What is the benefit of having a copy of the last known state of 
+the remote stored locally?
+A: Having the last known state of the remote stored locally lets you see all
+the commits others have made who are collaborating on it.
+You can then merge your local master to it offline, and then 
+push that back to origin.
+
 
