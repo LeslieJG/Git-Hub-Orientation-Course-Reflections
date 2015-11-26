@@ -2,3 +2,21 @@ Editing Files on GitHub
 Q: When would you want to create a remote repository rather than keeping all your work local?
 A: A remote repository allow many people to have access to the files as they work on a shared project. Also, it may act as a convenient location to download files.
 
+Manual vs automatic pull
+Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+A: If you are in the middle of working on some code, you may not want
+an automatic pull to add commits to your project. Especially if there
+would be a code conflict.
+
+Forks, Clones, Branches
+Q: Describe the differences between forks, clones, and branches. When 
+would you use one instead of another?
+A: Branch, is a fork within a repository so that development can
+continue simulatneously along both branches. Clone duplicates an
+entire repository either locally or from Github to your local machine.
+Fork is a clone of a repositry from Github to Github. You would
+use Fork if you wanted to make changes to a repository on Github
+that you wanted to give credit to the original repository, and also
+if the repository would not allow you to make changes on it originally.
+
+
