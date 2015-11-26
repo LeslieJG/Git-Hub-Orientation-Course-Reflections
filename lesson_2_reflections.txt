@@ -35,3 +35,31 @@ out new ideas or new versions. Sometimes it would be nice to massively
 refactor or change a file on a new branch, then try it out, then 
 decide if that's what I want to have in my master branch.
 
+Visualizing with Diagrams
+Q: How do the diagrams help you visualize the branch structure?
+A: For me, diagrams are essential to visualize the branch structure.
+Without the diagrams I would have a difficult time knowing how the 
+branches relate. Also it is nice to know what "detached head" means. It 
+means that the current head is NOT on a labelled branch and if I 
+checkout another branch all the information on the detached head will be 
+lost. If I want to keep it, I would need to run
+git checkout -b new_branch_name 
+which would make my current head a new branch, and checkout that branch.
+
+Merging Two Branches
+Q: What is the result of merging two branches together? Why do we 
+represent it in the diagram the way we do?
+A: Merging two branches together keeps all the new added lines in 
+changed files. Merging makes both branches reachable. Using "git log" 
+will show all the commits (but in date stamp order, not necessariy 
+separated into their previous branches).
+The diagram represents the branches and how they merged with the commits 
+shown in the branches.
+
+Automatic vs. Manual Merging
+Q: What are the pros and cons of Git's automatic merging vs. 
+always doing merges manually?
+A: Pro of automatic merging if features are new and totally unrelated. 
+Then it should work fine. However, if features interconnect then
+merging should be done manually.
+
